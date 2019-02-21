@@ -1,6 +1,7 @@
 import { TestBed } from '@angular/core/testing';
 
-import { RegisteredAccountService } from '../../../src/services/registered-account.service';
+import { RegisteredAccountService } from '../../../src/app/services/registered-account.service';
+import { RegisteredAccount } from 'src/app/models/registered-account.model';
 
 describe('RegisteredAccountService', () => {
   beforeEach(() => TestBed.configureTestingModule({
